@@ -27,13 +27,13 @@ function Navbar() {
             </div>
             <div className="flex items-center justify-center space-x-4">
               <Link
-                to="/"
+                to="/introduction"
                 className="px-3 tracking-wide text-md text-text_link"
               >
                 Introduction
               </Link>
               <Link
-                to="/"
+                to="/quarters"
                 className="px-3 tracking-wide text-md text-text_link"
               >
                 Quarters
