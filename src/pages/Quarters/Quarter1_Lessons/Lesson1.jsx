@@ -1,11 +1,11 @@
 function Lesson1() {
   return (
     <div>
-      <div className="flex flex-col px-20">
-        <h1 className="mt-16 leading-[72px] mb-12 text-5xl tracking-wide ">
+      <div className="flex flex-col px-5 md:px-16 lg:px-20">
+        <h1 className="mt-16 leading-[48px] lg:leading-[72px] mb-12 text-3xl lg:text-5xl tracking-wide">
           Lesson 1
         </h1>
-        <p className="mb-48 text-lg leading-">
+        <p className="mb-16 text-base leading-7 lg:text-lg lg:mb-48">
           Lorem ipsum dolor sit amet. Sit rerum corrupti sit nobis consectetur
           id ratione illum aut quidem voluptas et aliquid magnam. Id sint saepe
           et dolore alias qui voluptates molestiae non quaerat galisum? Aut sunt
@@ -25,9 +25,9 @@ function Lesson1() {
         </p>
       </div>
 
-      <div className="flex px-20 bg-white">
-        <div className="grid grid-cols-1 gap-20 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 my-28">
-          <div className="">
+      <div className="flex px-5 bg-white lg:px-20">
+        <div className="grid grid-cols-1 gap-10 my-14 lg:gap-20 md:grid-cols-2 lg:grid-cols-2 lg:my-28">
+          <div>
             <img
               src="https://placehold.co/600x400"
               className="w-full h-auto"
@@ -36,10 +36,10 @@ function Lesson1() {
           </div>
 
           <div className="flex flex-col justify-center text-left">
-            <h1 className="mb-6 text-2xl font-bold leading-9 tracking-wide">
+            <h1 className="mb-6 text-xl font-bold leading-9 tracking-wide lg:text-2xl">
               Sed ut perspiciatis unde omnis
             </h1>
-            <p className="mb-8">
+            <p className="text-base leading-7 lg:text-lg">
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
@@ -48,11 +48,11 @@ function Lesson1() {
         </div>
       </div>
 
-      <div className="flex flex-col px-20">
-        <h1 className="my-20 text-2xl font-bold leading-9 tracking-wide text-right ">
+      <div className="flex flex-col px-5 md:px-16 lg:px-20">
+        <h1 className="my-16 text-xl font-bold leading-9 tracking-wide lg:text-right lg:my-20 lg:text-2xl">
           Sed ut perspiciatis unde omnis
         </h1>
-        <p className="mb-48 text-lg leading-">
+        <p className="mb-16 text-base leading-7 lg:text-lg lg:mb-48">
           Lorem ipsum dolor sit amet. Sit rerum corrupti sit nobis consectetur
           id ratione illum aut quidem voluptas et aliquid magnam. Id sint saepe
           et dolore alias qui voluptates molestiae non quaerat galisum? Aut sunt
@@ -72,11 +72,11 @@ function Lesson1() {
         </p>
       </div>
 
-      <div className="flex flex-col px-20 bg-white">
-        <h1 className="mt-16 mb-12 text-2xl font-bold leading-9 tracking-wide ">
+      <div className="flex flex-col px-5 bg-white md:px-16 lg:px-20">
+        <h1 className="mt-16 mb-12 text-xl font-bold leading-9 tracking-wide lg:text-2xl">
           Sed ut perspiciatis unde omnis
         </h1>
-        <p className="mb-20 text-lg leading-7">
+        <p className="mb-16 text-base leading-7 lg:text-lg lg:mb-20">
           Lorem ipsum dolor sit amet. Sit rerum corrupti sit nobis consectetur
           id ratione illum aut quidem voluptas et aliquid magnam. Id sint saepe
           et dolore alias qui voluptates molestiae non quaerat galisum? Aut sunt
@@ -96,11 +96,11 @@ function Lesson1() {
         </p>
       </div>
 
-      <div className="flex flex-col px-20">
-        <h1 className="my-20 text-2xl font-bold leading-9 tracking-wide text-right ">
+      <div className="flex flex-col px-5 md:px-16 lg:px-20">
+        <h1 className="my-16 text-xl font-bold leading-9 tracking-wide lg:text-right lg:my-20 lg:text-2xl">
           Sed ut perspiciatis unde omnis
         </h1>
-        <p className="mb-48 text-lg leading-">
+        <p className="mb-16 text-base leading-7 lg:text-lg lg:mb-48">
           Lorem ipsum dolor sit amet. Sit rerum corrupti sit nobis consectetur
           id ratione illum aut quidem voluptas et aliquid magnam. Id sint saepe
           et dolore alias qui voluptates molestiae non quaerat galisum? Aut sunt
@@ -120,11 +120,11 @@ function Lesson1() {
         </p>
       </div>
 
-      <div className="flex flex-col px-20 bg-white">
-        <h1 className="mt-16 mb-12 text-2xl font-bold leading-9 tracking-wide ">
+      <div className="flex flex-col px-5 bg-white md:px-16 lg:px-20">
+        <h1 className="mt-16 mb-12 text-xl font-bold leading-9 tracking-wide lg:text-2xl">
           Sed ut perspiciatis unde omnis
         </h1>
-        <p className="mb-20 text-lg leading-7">
+        <p className="mb-16 text-base leading-7 lg:text-lg lg:mb-20">
           Lorem ipsum dolor sit amet. Sit rerum corrupti sit nobis consectetur
           id ratione illum aut quidem voluptas et aliquid magnam. Id sint saepe
           et dolore alias qui voluptates molestiae non quaerat galisum? Aut sunt
