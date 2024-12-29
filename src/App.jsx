@@ -12,7 +12,6 @@ function App() {
         <Navbar />
         <div className="pt-20">
           {" "}
-          {/* Add padding-top here */}
           <Routes>
             {routes.map((route, index) => (
               <Route key={index} path={route.path} element={route.element} />
